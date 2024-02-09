@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+/* navigation bar */
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9vh;
+    background-color: #3188B3;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 5vh;
+}
+
+.logo h2 {
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-inline: 1rem;
+    color: #fff;
+    padding: .8rem 1.5rem;
+    transition: all .3s ease-in;
+    border-radius: .3rem;
+}
+
+nav ul li a:hover {
+    background-color: #EEB327;
+    color: #fff;
+}
+
+
+
+nav ul button {
+    padding: 1rem 2rem;
+    background: transparent;
+    background-color: #EEB327;
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+/* navigation bar */
+
+/* Home section */
+
+
+
+.bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(busbg.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box p {
+    text-align: center;
+    color: #fff;
+}
+
+.inner-box h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.book {
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #fff;
+    border-radius: .3rem;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book .b1 {
+    margin-inline: 1.5rem;
+    text-align: left;
+}
+
+.b1 label {
+    font-size: small;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.b1 select {
+    font-size: small;
+    border: none;
+    font-weight: 800;
+    outline: none;
+}
+
+.b1 select option {
+    font-weight: 800;
+}
+
+.book button {
+    padding: 1rem 2rem;
+    background: transparent;
+    background-color: #EEB327;
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+
+
+.inner-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.book span {
+    height: 2rem;
+    width: .1rem;
+    background-color: gray;
+
+}
+
+/* Home section */
+
+
+/* How it Works */
+.box {
+    margin: 3rem 5rem 2rem 5rem;
+    padding-top: 5rem;
+}
+
+
+
+.box h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.box p {
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.outer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 20rem;
+    gap: 2rem;
+}
+
+.outer-box .cards {
+    text-align: left;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.526);
+    padding-bottom: .7rem;
+}
+
+.cards img {
+    height: 30vh;
+    width: 100%;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.outer-box .cards h4,
+p {
+    margin: .5rem;
+}
+
+.cards p {
+    font-size: .7rem;
+}
+
+
+
+
+.cards button {
+    margin: .5rem;
+    padding: .7rem 1.5rem;
+    background: transparent;
+    background-color: #EEB327;
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+/* How it Works */
+
+
+/* Services */
+
+#Services {
+    padding: 3rem 0rem;
+}
+
+.box2 {
+    margin: 3rem 2rem 2rem 5rem;
+}
+
+.box2 h3 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.box2 p {
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.outer-box2 {
+    padding: 1rem 14.5rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.obox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 20rem;
+    gap: 2rem;
+    position: relative;
+}
+
+
+#simg {
+    height: 45vh;
+    border-radius: .5rem;
+}
+
+#rat {
+    height: 3vh;
+}
+
+.rating-card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border: none;
+    bottom: 0;
+    left: 21vw;
+    border-radius: .5rem;
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.526);
+    bottom: -4vh;
+
+}
+
+.rating-card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border: none;
+    bottom: -4vh;
+    right: 20.5vw;
+    border-radius: .5rem;
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.526);
+}
+
+.ol1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.ol1 .r1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ol1 .l1 p {
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2rem;
+}
+
+.ol1 .r1 p {
+    font-size: .8rem;
+    font-weight: 800;
+    line-height: 1.2rem;
+}
+
+.ol1 .r1 .ir1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/* Services */
+
+/* Testimonial */
+#testimonial {
+    padding: 4rem;
+}
+
+#testimonial h3 {
+    text-align: center;
+    margin: 4rem;
+    font-size: 2rem;
+}
+
+
+.out-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.out-box .lf-box img {
+    height: 38vh;
+    border-radius: .5rem;
+}
+
+.out-box .rt-box .quot img {
+    height: 8vh;
+}
+
+.rt-box p {
+    font-size: .8rem;
+}
+
+.log img {
+    width: 12vh;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.text p {
+    font-size: .8rem;
+    text-align: left;
+}
+
+.text h5 {
+    font-size: 1.1rem;
+}
+
+.payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+}
+
+.payment .p1 img {
+    height: 21vh;
+}
+
+#paym img {
+    height: 8vh;
+}
+
+.out-box1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(bus-stand.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 5rem 0rem 3rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.card2 {
+    margin-right: 5rem;
+    border-radius: .5rem;
+    padding: 2rem;
+    background-color: #fff;
+    width: fit-content;
+}
+
+.card2 p {
+    font-size: .8rem;
+}
+
+.in button {
+    margin: .5rem;
+    padding: .8rem 1.5rem;
+    background: transparent;
+    background-color: #EEB327;
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.in input {
+    background: transparent;
+    outline: none;
+    border-radius: .3rem;
+    padding: .7rem 1.5rem;
+}
+
+/* Testimonial */
+
+/* contact */
+.out-box4 {
+    background-color: #10242E;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+
+.out-box4 .in-box {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+.in-box {
+    padding: 2rem;
+}
+
+.in-box p {
+    color: #fff;
+    font-size: .7rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+#kal {
+    margin-top: 1rem;
+}
+
+.in-box3 p {
+    text-align: left;
+}
+
+.inner img {
+    height: 7vh;
+}
+
+.in-box h3 {
+    color: #fff;
+    text-align: left;
+}
+
+.inner h3 {
+    font-weight: 800;
+    color: #fff;
+}
+
+.inner p {
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.in-box li {
+    list-style: none;
+    text-align: left;
+    margin-top: .6rem;
+}
+
+.in-box li a {
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+    font-size: .7rem;
+}
+
+
+.social {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.1rem 0rem;
+}
+
+.social .s img {
+    height: 3vh;
+    cursor: pointer;
+}
+
+.inn {
+    margin-top: 1rem;
+}
+
+.btn2 button {
+    margin: .5rem;
+    padding: .7rem 1.5rem;
+    background: transparent;
+    background-color: #EEB327;
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    text-align: left;
+}
+
+.btn2 {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/* contact */
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #3188B3;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+/* footer */
